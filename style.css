@@ -1,0 +1,604 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    -137deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(21, 35, 72, 1) 35%,
+    rgba(21, 35, 72, 1) 41%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+/* ############### navbar ############## */
+.header {
+  background-color: transparent;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#nav-bar-logo {
+  margin: 2.5em 9em !important;
+}
+#logoo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.my-nav-items ul li {
+  position: relative;
+  left: 340px;
+  font-size: 2.5rem !important;
+}
+
+.my-nav-items ul li a {
+  color: white;
+  padding: 20px;
+  margin: 0px 30px;
+}
+
+.my-nav-items ul li a:hover {
+  color: #ffdd00;
+  border-bottom: 1px solid #ffdd00;
+}
+
+/* ############## banner-content ############ */
+#onecont {
+  padding: 30px;
+  margin: 5px 0;
+}
+
+#banner-content {
+  color: white;
+}
+/* #banner-div{
+    background-color: #152348;
+} */
+#banner-content h3 {
+  letter-spacing: 2px;
+  font-size: 3rem;
+}
+
+#banner-content h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 0.5em;
+}
+
+#banner-content p {
+  font-size: 1.8rem;
+  margin-top: 4em;
+}
+
+#banner-content form input {
+  width: 350px;
+  border-radius: 10px;
+  height: 40px;
+  background: transparent;
+  font-size: 1.8rem;
+  color: white;
+  padding: 2em;
+}
+::placeholder {
+  color: white !important;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+}
+
+#banner-content form button {
+  text-transform: uppercase;
+  background-color: transparent !important;
+  font-size: 1.8rem;
+  color: white;
+  padding: 1em !important;
+  border-radius: 10px !important;
+  margin-left: 5px;
+}
+
+#searchbtn {
+  margin-top: 5em;
+}
+
+#burger{
+  background-color: grey;
+  border-radius: 10px;
+  padding: 21px;
+  
+}
+
+/* ################ banner image ################# */
+
+#banner-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ################## section 2 grid ############# */
+.sec-2 {
+  height: 30%;
+  padding: 50px;
+}
+
+#sec-2grid {
+  background-color: white;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  padding: 2em 3em;
+  box-shadow: 0px 0px 7px 0px gray;
+  margin: 3em 0px;
+  /* border: 1px solid white; */
+}
+
+#sec-2grid img {
+  height: 30px;
+  width: 30px;
+}
+
+#sec-2grid button {
+  border-radius: 100%;
+  padding: 2em 2em;
+}
+
+/*######################### sec-3 ##############*/
+
+#sec-3body {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 5px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+}
+
+#sec-3grid {
+  background: #f7f7f7;
+  height: 100%;
+  padding: 0em;
+  border-radius: 10px;
+  margin-bottom: 5em;
+}
+
+#sec-3grid a img {
+  width: 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#sec-3grid h6 {
+  margin: 1em 2em;
+  font-size: 2rem;
+}
+
+#sec-3grid h3 {
+  margin: 1em 2em;
+  font-size: 1.8rem;
+}
+
+/* ################# sec-4 ##############0 */
+
+#sec-3body h1 {
+  color: #f7f7f7;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+#sec-4 {
+  background-color: black;
+}
+
+#sec-4-row {
+  padding: 3rem 0;
+}
+
+#sec-4grid {
+  /* background: grey; */
+  background: rgb(3, 2, 14);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 2, 14, 1) 0%,
+    rgba(21, 35, 72, 1) 55%,
+    rgba(21, 35, 72, 1) 100%
+  );
+  height: 100%;
+  padding: 0em;
+  border-radius: 25px;
+  margin-bottom: 5em;
+  width: 13%;
+}
+
+#sec-4grid img {
+  width: 100% !important;
+  background-size: cover;
+  margin-bottom: 2em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#sec-4grid h6 {
+  color: white;
+  margin: 1em 2em;
+  font-size: 2rem;
+}
+
+#sec-4grid h3 {
+  margin: 1em 2em;
+  color: white;
+  font-size: 1.8rem;
+}
+
+/* #################### sec-5 ############## */
+
+#sec-5 {
+  padding: 5rem 0;
+}
+
+#sec-5body h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+}
+
+#sec-5griditem {
+  background-color: #0071f8;
+  border-radius: 10px;
+  padding: 0;
+  width: 14%;
+  margin-bottom: 7em;
+}
+
+#sec-5griditem h3 {
+  color: white;
+  font-weight: bold;
+  margin: 1em 2em;
+  font-size: 1.8rem;
+}
+
+#sec-5griditem img {
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* ############### sec-6 #############0 */
+
+#footer {
+  background: transparent;
+  height: 70px;
+}
+#foot-para h2 {
+  color: black;
+  letter-spacing: 3px;
+  font-size: 2.5rem;
+}
+
+/* ################### media queries ############ */
+@media (max-width: 1500px) {
+  #banner-img {
+    display: none;
+  }
+  #banner-content h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+  .my-nav-items ul li {
+    position: relative;
+    left: 340px;
+    font-size: 1.5rem;
+    margin: 0 1em;
+  }
+  #banner-content {
+    width: 80%;
+    text-align: center;
+  }
+  #searchbtn {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+  .my-nav-items ul li {
+    position: relative;
+    left: 240px;
+    font-size: 1.5rem;
+    margin: 0 1em;
+  }
+
+  #foot-para h2{
+    font-size: 2rem;
+  }
+
+  #banner-content form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+  #banner-content {
+    width: 80%;
+    text-align: center;
+  }
+  #searchbtn {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+  .my-nav-items ul li {
+    position: relative;
+    left: 120px;
+    font-size: 1.5rem;
+    margin: 0 1em;
+  }
+
+  #foot-para h2{
+    font-size: 1.8rem;
+  }
+
+  #banner-content form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  #banner-content {
+    width: 80%;
+    text-align: center;
+  }
+  #searchbtn {
+    justify-content: center;
+  }
+  #footer {
+    height: 70px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 899px) {
+  #banner-content form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  #searchbtn {
+    justify-content: center;
+  }
+
+  #foot-para h2{
+    font-size: 1.6rem;
+  }
+
+  #banner-img img {
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 3em;
+  }
+  #banner-content {
+    width: 80%;
+    text-align: center;
+  }
+
+  #footer {
+    height: 60px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  #banner-div {
+    text-align: center;
+  }
+
+  #banner-content form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  #foot-para h2{
+    font-size: 1.5rem;
+  }
+
+  #banner-content form input {
+    width: 60%;
+    margin-right: 3px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+
+  #banner-content form {
+    margin: 3em auto;
+    width: 80%;
+  }
+
+  #banner-img img {
+    width: 60%;
+    border-radius: 25px;
+    margin-top: 3em;
+  }
+
+  #sec-2grid {
+    width: 40%;
+    height: 100%;
+  }
+
+  #sec-2grid img {
+    height: 25px;
+    width: 25px;
+  }
+
+  #sec-2grid button {
+    border-radius: 100%;
+    padding: 1.5em 1.5em;
+    margin-bottom: 1em;
+  }
+
+  #sec-3grid {
+    width: 40%;
+    height: 100%;
+  }
+
+  #sec-4grid {
+    width: 40%;
+    height: auto;
+  }
+
+  #sec-5griditem {
+    width: 40%;
+  }
+
+  #footer {
+    height: 60px;
+  }
+
+  #foot-para h5 {
+    font-size: 0.9rem;
+  }
+
+  #burger {
+    position: absolute;
+    right: 35px;
+    top: 60px;
+  }
+
+  .my-nav-items ul li {
+    position: relative;
+    left: -58px;
+    font-size: 1.5rem;
+    margin: 3px 1em;
+    padding-top: 1em;
+  }
+  #buttton {
+    position: relative;
+    left: -44px;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #banner-div {
+    text-align: center;
+  }
+
+  #banner-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 0.5em;
+  }
+
+  #banner-content p {
+    font-size: 1rem;
+    margin-top: 2.5em;
+  }
+
+  #banner-content form input {
+    width: 100%;
+  }
+
+  #banner-content form button {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  #banner-content form {
+    width: 80%;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 3em auto;
+  }
+
+  #banner-img img {
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 3em;
+  }
+
+  #sec-2grid {
+    width: 40%;
+    height: 100%;
+  }
+
+  #sec-2grid img {
+    height: 22px;
+    width: 22px;
+  }
+
+  #sec-2grid button {
+    border-radius: 100%;
+    padding: 1.3em 1.3em;
+    margin-bottom: 1em;
+  }
+
+  #sec-3grid {
+    width: 90%;
+    height: 100%;
+  }
+
+  #sec-4grid {
+    width: 90%;
+    height: auto;
+  }
+
+  #sec-5griditem {
+    width: 90%;
+  }
+
+  #foot-para h5 {
+    font-size: 0.6rem;
+  }
+
+  #footer {
+    height: 50px;
+  }
+
+  #burger {
+    position: absolute;
+    right: 35px;
+    top: 45px;
+  }
+
+  .my-nav-items ul li {
+    position: relative;
+    left: -58px;
+    font-size: 1.5rem;
+    margin: 3px 1em;
+  }
+  #buttton {
+    position: relative;
+    left: -44px;
+  }
+  #onecont {
+    margin-top: -20px !important;
+  }
+  /* .header {
+    height: 99vh;
+  } */
+  #banner-img img {
+    height: 70%;
+  }
+  #twobtn {
+    width: 80px;
+    margin-left: -51px;
+  }
+  .sec-2 {
+    padding: 10px;
+  }
+  #nav-bar-logo {
+    margin: 10px !important;
+  }
+  #foot-para h2{
+    font-size: 1.3rem;
+  }
+}
